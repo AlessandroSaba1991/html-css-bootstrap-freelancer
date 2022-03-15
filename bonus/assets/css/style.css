@@ -19,8 +19,18 @@
 
 /* #region Main */
 
+.banner{
+    background-color: var(--success);
+}
+
 .img_hero{
     width: 200px;
+}
+
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: white;
 }
 
 /* #endregion Main */
