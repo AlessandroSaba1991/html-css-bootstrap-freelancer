@@ -1,0 +1,26 @@
+/* #region Color */
+:root{
+    --success:rgba(26, 188, 156, 1);
+    --primary:rgba(44, 62, 80, 1);
+    --secondary:rgba(58, 84, 109, 1);
+    --dark:rgba(51, 51, 51, 1);
+}
+ 
+/* #endregion Color */
+
+/* #region Header */
+
+.navbar{
+    background-color: var(--primary);
+    height: 80px;
+}
+
+/* #endregion Header */
+
+/* #region Main */
+
+.img_hero{
+    width: 200px;
+}
+
+/* #endregion Main */
