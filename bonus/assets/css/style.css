@@ -1,38 +1,46 @@
 /* #region Color */
-:root{
-    --success:rgba(26, 188, 156, 1);
-    --primary:rgba(44, 62, 80, 1);
-    --secondary:rgba(58, 84, 109, 1);
-    --dark:rgba(51, 51, 51, 1);
+:root {
+  --success: rgba(26, 188, 156, 1);
+  --primary: rgba(44, 62, 80, 1);
+  --secondary: rgba(58, 84, 109, 1);
+  --dark: rgba(51, 51, 51, 1);
 }
- 
-.bg_primary{
-    background-color: var(--primary);
+
+.bg_success {
+  background-color: var(--success);
+}
+
+.bg_primary {
+  background-color: var(--primary);
 }
 /* #endregion Color */
 
-/* #region Header */
+/* #region Utility */
 
-.navbar{
-    background-color: var(--primary);
-    height: 80px;
+.rounded_3 {
+  border-radius: 0.75rem;
 }
+
+/* #endregion Utility */
+
+/* #region Header */
 
 /* #endregion Header */
 
 /* #region Main */
 
-.banner{
-    background-color: var(--success);
+
+
+.img_hero {
+  width: 300px;
 }
 
-.img_hero{
-    width: 200px;
+.line {
+  width: 100px;
+  height: 4px;
 }
 
-.line{
-    width: 100px;
-    height: 3px;
+.about {
+  background-color: var(--success);
 }
-
 /* #endregion Main */
