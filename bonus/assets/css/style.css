@@ -47,3 +47,11 @@
 }
 
 /* #endregion Utility */
+
+.banner_portfolio{
+  height: 600px;
+  background-image: url(../img/cabin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
