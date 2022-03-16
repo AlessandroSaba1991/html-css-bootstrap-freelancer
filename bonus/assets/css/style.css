@@ -21,6 +21,10 @@
   border-radius: 0.75rem;
 }
 
+.pb_5{
+    padding-bottom: 8rem;
+}
+
 /* #endregion Utility */
 
 /* #region Header */
@@ -40,7 +44,5 @@
   height: 4px;
 }
 
-.about {
-  background-color: var(--success);
-}
+
 /* #endregion Main */
